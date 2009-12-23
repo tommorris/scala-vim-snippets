@@ -1,0 +1,33 @@
+Scala Vim Snippets
+
+I just took the Scala snippets from TextMate and put them in a snipMate
+.snippets file.
+
+INSTALLATION
+If you are in UNIX-land, you should be able to use `make install` to install
+them.
+
+If you are on Windows, copy the snippets file into your _vim\snippets folder.
+You'll know where this is better than I do.
+
+`make extract` moves your scala.snippets file from your ~/.vim/snippets back to
+the working directory so you can check them in.
+
+The Makefile really might be the simplest thing you've ever seen.
+
+BLATHER
+Key snippets:
+  - class
+  - cclass (case class)
+  - trait
+  - object
+  - application
+  - def
+  - if, ifelse
+  - try
+  - tfc (try, catch, finally)
+	- bizarre name, I know, but it's how it is in the TM bundle. If other
+	  people find this particularly annoying, I'll fix it
+  - match, case
+  - p (println)
+  - main
