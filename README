@@ -15,6 +15,12 @@ the working directory so you can check them in.
 
 The Makefile really might be the simplest thing you've ever seen.
 
+SYNTAX CHECKING
+It's quite possible when you are copying and pasting snippets files together to
+bugger up the syntax. check.rb is a Ruby script that checks each line of the
+script using the regex provided by the syntax file for snipMate snippets files.
+`make check` will syntax check the file for you.
+
 BLATHER
 Key snippets:
   - class
