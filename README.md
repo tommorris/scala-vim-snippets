@@ -44,8 +44,9 @@ contains the name of the programming language or tool you have written the
 snippets file for, the name of the primary author and a contact e-mail
 address. This is written in [YAML](http://www.yaml.org/).
 
-PDF generation is currently for OS X only. It uses a RubyGem called wkpdf which
-uses the WebKit rendering engine on the Mac to render a PDF. This can be
+PDF generation is currently for OS X only. It uses a RubyGem called
+[wkpdf](http://plessl.github.com/wkpdf/) which uses the
+[WebKit](http://webkit.org/) engine on the Mac to render a PDF. This can be
 invoked using `make doc-pdf-a4` and `make doc-pdf-letter`. 
 
 Blather
@@ -53,17 +54,17 @@ Blather
 
 Key snippets:
 
-  * class
-  * cclass (case class)
-  * trait
-  * object
-  * application
-  * def
-  * if, ifelse
-  * try
-  * tfc (try, catch, finally)
+  * <var>class</var>
+  * <var>cclass</var> ([case class](http://www.scala-lang.org/node/107))
+  * <var>trait</var> ([documentation](http://www.scala-lang.org/node/126))
+  * <var>object</var>
+  * <var>application</var>
+  * <var>def</var>
+  * <var>if</var>, <var>ifelse</var>
+  * <var>try</var>
+  * <var>tfc</var> (try, catch, finally)
 	* bizarre name, I know, but it's how it is in the TM bundle. If other
 	  people find this particularly annoying, I'll fix it
-  * match, case
-  * p (println)
-  * main
+  * <var>match</var>, <var>case</var> ([pattern matching](http://www.scala-lang.org/node/120))
+  * <var>p</var> (println)
+  * <var>main</var>
