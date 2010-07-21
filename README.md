@@ -46,7 +46,9 @@ invoked using `make doc-pdf-a4` and `make doc-pdf-letter`.
 
 Blather
 -------
+
 Key snippets:
+
   * class
   * cclass (case class)
   * trait
