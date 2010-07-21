@@ -47,17 +47,17 @@ invoked using `make doc-pdf-a4` and `make doc-pdf-letter`.
 Blather
 -------
 Key snippets:
-  - class
-  - cclass (case class)
-  - trait
-  - object
-  - application
-  - def
-  - if, ifelse
-  - try
-  - tfc (try, catch, finally)
-	- bizarre name, I know, but it's how it is in the TM bundle. If other
+  * class
+  * cclass (case class)
+  * trait
+  * object
+  * application
+  * def
+  * if, ifelse
+  * try
+  * tfc (try, catch, finally)
+	* bizarre name, I know, but it's how it is in the TM bundle. If other
 	  people find this particularly annoying, I'll fix it
-  - match, case
-  - p (println)
-  - main
+  * match, case
+  * p (println)
+  * main
